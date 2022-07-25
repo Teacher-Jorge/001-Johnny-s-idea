@@ -11,8 +11,8 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 360px;
-    height: 600px;
+    width: 400px;
+    height: 630px;
     border: 2px solid rgb(255, 153, 0);
     border-radius: 20px;
 }
@@ -32,7 +32,7 @@ a {
 .btn-cover {
     font-family: 'bangers';
     font-size: 3rem;
-    margin-top: 250px;
+    margin-top: 160px;
     margin-left: 70px;
     width: 100px;
     height: 50px;
@@ -43,7 +43,7 @@ a {
 .btn-links {
     font-family: 'bangers';
     font-size: 3rem;
-    width: 172px;
+    width: 192px;
     height: 50px;
     border-radius: 10px;
 }
@@ -51,14 +51,14 @@ a {
 .pages-buttons {
     justify-content: center;
     position: absolute;
-    margin-top: 540px;
+    margin-top: 590px;
 }
 
 .chapter {
     display: flex;
     margin-left: 115px;
     width: 300px;
-    height: 30px;
+    height: 40px;
     font-family: 'bangers';
     color:rgb(255, 81, 0);
     text-shadow: 1px 1px 2px black;
@@ -70,15 +70,15 @@ a {
     flex-direction: column;
     margin: 0 auto;
     padding: 3px;
-    width: 360px;
-    height: 600px;
+    width: 400px;
+    height: 650px;
     border: 2px solid steelblue;
     border-radius: 10px;
-    line-height: 1.8rem;
+    line-height: 2rem;
 }
 
 .btn-words {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border-style: none;
     background: #fff;
     box-shadow: 1px 1px 2px black;
