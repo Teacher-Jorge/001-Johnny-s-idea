@@ -43,15 +43,9 @@ a {
 .btn-links {
     font-family: 'bangers';
     font-size: 3rem;
-    width: 180px;
+    width: 170px;
     height: 50px;
     border-radius: 10px;
-}
-
-.pages-buttons {
-    justify-content: center;
-    position: absolute;
-    margin-top: 590px;
 }
 
 .chapter {
@@ -72,8 +66,8 @@ a {
     flex-direction: column;
     margin: 0 auto;
     padding: 5px;
-    max-width: 400px;
-    max-height: 700px;
+    max-width: 360px;
+    max-height: 600px;
     border: 2px solid steelblue;
     border-radius: 10px;
     line-height: 2rem;
