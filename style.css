@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    max-width: 340px;
+    max-width: 400px;
     height: 600px;
     border: 2px solid rgb(255, 153, 0);
     border-radius: 20px;
@@ -43,13 +43,18 @@ a {
 .btn-links {
     font-family: 'bangers';
     font-size: 3rem;
-    width: 160px;
+    width: 150px;
     height: 50px;
     border-radius: 10px;
-    margin-top: 5px;
+    margin-top: 70px;
     border-style: none;
     text-shadow: 1px 1px 2px black;
     background: #fff;
+}
+
+.pages-buttons-container {
+    display: flex;
+    justify-content: center;
 }
 
 .paragraph-container {
@@ -58,7 +63,7 @@ a {
     flex-direction: column;
     margin: 0 auto;
     padding: 5px;
-    max-width: 340px;
+    max-width: 400px;
     height: 600px;
     border: 2px solid steelblue;
     border-radius: 10px;
