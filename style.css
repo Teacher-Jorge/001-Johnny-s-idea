@@ -11,8 +11,8 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 400px;
-    height: 630px;
+    max-width: 400px;
+    max-height: 630px;
     border: 2px solid rgb(255, 153, 0);
     border-radius: 20px;
 }
@@ -55,17 +55,19 @@ a {
 }
 
 .chapter {
+    font-size: 2rem;
     display: flex;
     margin-left: 115px;
     width: 300px;
     height: 40px;
+    margin-top: 5px;
     font-family: 'bangers';
     color:rgb(255, 81, 0);
     text-shadow: 1px 1px 2px black;
 }
 
 .paragraph-container {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
