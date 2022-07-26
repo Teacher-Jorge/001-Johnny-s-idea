@@ -11,8 +11,8 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 350px;
-    height: 600px;
+    max-width: 450px;
+    height: 620px;
     border: 2px solid rgb(255, 153, 0);
     border-radius: 20px;
 }
@@ -24,8 +24,8 @@
     flex-direction: column;
     margin: 0 auto;
     padding: 5px;
-    max-width: 350px;
-    height: 600px;
+    max-width: 450px;
+    height: 620px;
     border: 2px solid steelblue;
     border-radius: 10px;
     line-height: 2rem;
