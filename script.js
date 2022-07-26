@@ -1,3 +1,23 @@
+let btnNarration1 = document.getElementById('btnNarration1')
+
+btnNarration1.addEventListener('click', function() {
+    let audio = document.getElementById('narration1')
+    audio.play()
+
+    btnNarration1.style.color = 'chartreuse'
+    btnPause.style.color = 'purple'
+})
+
+let btnPause = document.getElementById('btnPause')
+
+btnPause.addEventListener('click', function() {
+    let audio = document.getElementById('narration1')
+    audio.pause()
+
+    btnNarration1.style.color = 'purple'
+    btnPause.style.color = 'chartreuse'
+})
+
 let btnHasBeen = document.getElementById('btnHasBeen')
 
 btnHasBeen.addEventListener('click', function() {

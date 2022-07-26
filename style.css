@@ -20,7 +20,7 @@
 
 
 .paragraph-container {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -87,7 +87,7 @@ a {
 }
 
 .btn-words {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     border-style: none;
     background: #fff;
     box-shadow: 1px 1px 2px black;
@@ -107,4 +107,29 @@ a {
 .paragraph {
     margin-right: 2px;
     margin-left: 15px;
+}
+
+.narration {
+    font-family: 'bangers';
+    font-size: 1.3rem;
+    color:blueviolet;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #fff;
+    box-shadow: inset 2px 2px 10px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.narration:hover {
+    box-shadow: inset 2px 2px 10px rgba(3, 7, 7, 0.5);
+    transform: scale(1.1);
+    color: rgb(255, 0, 0);
+}
+
+.narration:active {
+    color:rgb(255, 0, 212)
 }
