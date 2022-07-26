@@ -113,95 +113,9 @@ btnUhuu.addEventListener('click', function() {
             document.getElementById('btnUhuu').innerHTML = 'HEUREUX!!!'
             document.getElementById('btnUhuu').setAttribute("style", "box-shadow: 1px 1px 2px")
             btnUhuu.style.backgroundColor = 'white'
-        }, 1000)
-    }
-)
-
-let btnOwn = document.getElementById('btnOwn')
-
-btnOwn.addEventListener('click', function() {
-    let audio = document.getElementById('clickSound')
-    audio.play()
-    
-        document.getElementById('btnOwn').innerHTML = 'suas próprias'
-        document.getElementById('btnOwn').setAttribute("style", "box-shadow: 0 0 0")
-        btnOwn.style.backgroundColor = 'lime'
-        setTimeout(function() {
-            document.getElementById('btnOwn').innerHTML = 'his own'
-            document.getElementById('btnOwn').setAttribute("style", "box-shadow: 1px 1px 2px")
-            btnOwn.style.backgroundColor = 'white'
         }, 2000)
     }
 )
-
-let btnWentInto = document.getElementById('btnWentInto')
-
-btnWentInto.addEventListener('click', function() {
-    let audio = document.getElementById('clickSound')
-    audio.play()
-    
-        document.getElementById('btnWentInto').innerHTML = 'entrou'
-        document.getElementById('btnWentInto').setAttribute("style", "box-shadow: 0 0 0")
-        btnWentInto.style.backgroundColor = 'lime'
-        setTimeout(function() {
-            document.getElementById('btnWentInto').innerHTML = 'went into'
-            document.getElementById('btnWentInto').setAttribute("style", "box-shadow: 1px 1px 2px")
-            btnWentInto.style.backgroundColor = 'white'
-        }, 2000)
-    }
-)
-
-let btnBought = document.getElementById('btnBought')
-
-btnBought.addEventListener('click', function() {
-    let audio = document.getElementById('clickSound')
-    audio.play()
-    
-        document.getElementById('btnBought').innerHTML = 'comprou tudo'
-        document.getElementById('btnBought').setAttribute("style", "box-shadow: 0 0 0")
-        btnBought.style.backgroundColor = 'lime'
-        setTimeout(function() {
-            document.getElementById('btnBought').innerHTML = 'bought everything'
-            document.getElementById('btnBought').setAttribute("style", "box-shadow: 1px 1px 2px")
-            btnBought.style.backgroundColor = 'white'
-        }, 2000)
-    }
-)
-
-let btnWentBack = document.getElementById('btnWentBack')
-
-btnWentBack.addEventListener('click', function() {
-    let audio = document.getElementById('clickSound')
-    audio.play()
-    
-        document.getElementById('btnWentBack').innerHTML = 'voltou pra casa'
-        document.getElementById('btnWentBack').setAttribute("style", "box-shadow: 0 0 0")
-        btnWentBack.style.backgroundColor = 'lime'
-        setTimeout(function() {
-            document.getElementById('btnWentBack').innerHTML = 'went back home'
-            document.getElementById('btnWentBack').setAttribute("style", "box-shadow: 1px 1px 2px")
-            btnWentBack.style.backgroundColor = 'white'
-        }, 2000)
-    }
-)
-
-let btnPlanning = document.getElementById('btnPlanning')
-
-btnPlanning.addEventListener('click', function() {
-    let audio = document.getElementById('clickSound')
-    audio.play()
-    
-        document.getElementById('btnPlanning').innerHTML = 'os planos para fazer'
-        document.getElementById('btnPlanning').setAttribute("style", "box-shadow: 0 0 0")
-        btnPlanning.style.backgroundColor = 'lime'
-        setTimeout(function() {
-            document.getElementById('btnPlanning').innerHTML = 'planning on making'
-            document.getElementById('btnPlanning').setAttribute("style", "box-shadow: 1px 1px 2px")
-            btnPlanning.style.backgroundColor = 'white'
-        }, 2000)
-    }
-)
-
 
 
 
