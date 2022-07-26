@@ -1,4 +1,22 @@
+let btnNarration2 = document.getElementById('btnNarration2')
 
+btnNarration2.addEventListener('click', function() {
+    let audio = document.getElementById('narration2')
+    audio.play()
+
+    btnNarration2.style.color = 'chartreuse'
+    btnPause.style.color = 'purple'
+})
+
+let btnPause = document.getElementById('btnPause')
+
+btnPause.addEventListener('click', function() {
+    let audio = document.getElementById('narration2')
+    audio.pause()
+
+    btnNarration2.style.color = 'purple'
+    btnPause.style.color = 'chartreuse'
+})
 
 
 let btnOwn = document.getElementById('btnOwn')
