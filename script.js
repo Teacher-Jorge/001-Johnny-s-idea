@@ -100,6 +100,23 @@ btnWouldntNeed.addEventListener('click', function() {
     }
 )
 
+let btnUhuu = document.getElementById('btnUhuu')
+
+btnUhuu.addEventListener('click', function() {
+    let audio = document.getElementById('uhuuSound')
+    audio.play()
+    
+        document.getElementById('btnUhuu').innerHTML = 'UHUU!!!'
+        document.getElementById('btnUhuu').setAttribute("style", "box-shadow: 0 0 0")
+        btnUhuu.style.backgroundColor = 'lime'
+        setTimeout(function() {
+            document.getElementById('btnUhuu').innerHTML = 'HEUREUX!!!'
+            document.getElementById('btnUhuu').setAttribute("style", "box-shadow: 1px 1px 2px")
+            btnUhuu.style.backgroundColor = 'white'
+        }, 1000)
+    }
+)
+
 let btnOwn = document.getElementById('btnOwn')
 
 btnOwn.addEventListener('click', function() {
@@ -184,5 +201,12 @@ btnPlanning.addEventListener('click', function() {
         }, 2000)
     }
 )
-   
+
+
+
+
+
+
+
+
     
