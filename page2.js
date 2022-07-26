@@ -1,11 +1,13 @@
-let btnNarration2 = document.getElementById('btnNarration2')
+let btnPlay = document.getElementById('btnPlay')
+let btnRepeat = document.getElementById('btnRepeat')
 
-btnNarration2.addEventListener('click', function() {
+btnPlay.addEventListener('click', function() {
     let audio = document.getElementById('narration2')
     audio.play()
 
-    btnNarration2.style.color = 'chartreuse'
+    btnPlay.style.color = 'chartreuse'
     btnPause.style.color = 'purple'
+    btnRepeat.style.color = 'purple'
 })
 
 let btnPause = document.getElementById('btnPause')
@@ -14,10 +16,23 @@ btnPause.addEventListener('click', function() {
     let audio = document.getElementById('narration2')
     audio.pause()
 
-    btnNarration2.style.color = 'purple'
+    btnPlay.style.color = 'purple'
     btnPause.style.color = 'chartreuse'
+    btnRepeat.style.color = 'purple'
 })
 
+btnRepeat.addEventListener('click', function() {
+   let audio = document.getElementById('narration2')
+   if (audio.paused) {
+    audio.currentTime = 0
+    audio.play()
+   }else {
+    audio.currentTime = 0
+   }
+    btnPlay.style.color = 'chartreuse'
+    btnPause.style.color = 'purple'
+    btnRepeat.style.color = 'purple'
+})
 
 let btnOwn = document.getElementById('btnOwn')
 
