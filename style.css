@@ -28,7 +28,7 @@
     margin: 0 auto;
     padding: 5px;
     max-width: 450px;
-    height: 700px;
+    height: 800px;
     border: 2px solid steelblue;
     border-radius: 10px;
     line-height: 2rem;
@@ -40,8 +40,6 @@
     font-size: 3rem;
     color:rgb(0, 195, 255);
     text-shadow: 1px 1px 2px black;
-    position: sticky;
-    top: 0;
 }
 
 img {
@@ -86,6 +84,8 @@ a {
     color:rgb(255, 81, 0);
     text-shadow: 1px 1px 2px black;
     margin: 10px 5px;
+    position: sticky;
+    top: 0;
 }
 
 .btn-words {
