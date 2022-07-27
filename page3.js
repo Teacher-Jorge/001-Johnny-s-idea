@@ -136,19 +136,19 @@ btnSuch.addEventListener('click', function() {
     }
 )
 
-let btnAble = document.getElementById('btnAble')
 
-btnAble.addEventListener('click', function() {
+
+btnHowever.addEventListener('click', function() {
     let audio = document.getElementById('clickSound')
     audio.play()
     
-        document.getElementById('btnAble').innerHTML = 'era capaz'
-        document.getElementById('btnAble').setAttribute("style", "box-shadow: 0 0 0")
-        btnAble.style.backgroundColor = 'lime'
+        document.getElementById('btnHowever').innerHTML = 'No entanto'
+        document.getElementById('btnHowever').setAttribute("style", "box-shadow: 0 0 0")
+        btnHowever.style.backgroundColor = 'lime'
         setTimeout(function() {
-            document.getElementById('btnAble').innerHTML = "was able"
-            document.getElementById('btnAble').setAttribute("style", "box-shadow: 1px 1px 2px")
-            btnAble.style.backgroundColor = 'white'
+            document.getElementById('btnHowever').innerHTML = "However"
+            document.getElementById('btnHowever').setAttribute("style", "box-shadow: 1px 1px 2px")
+            btnHowever.style.backgroundColor = 'white'
         }, 2000)
     }
 )
@@ -159,7 +159,7 @@ btnStill.addEventListener('click', function() {
     let audio = document.getElementById('clickSound')
     audio.play()
     
-        document.getElementById('btnStill').innerHTML = 'ainda assim'
+        document.getElementById('btnStill').innerHTML = 'ainda'
         document.getElementById('btnStill').setAttribute("style", "box-shadow: 0 0 0")
         btnStill.style.backgroundColor = 'lime'
         setTimeout(function() {
