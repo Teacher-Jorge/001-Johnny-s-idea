@@ -28,11 +28,11 @@
     margin: 0 auto;
     padding: 5px;
     max-width: 450px;
-    height: 620px;
+    height: 700px;
     border: 2px solid steelblue;
     border-radius: 10px;
     line-height: 2rem;
-    overflow:scroll;
+    overflow:hidden;
 }
 
 .title {
@@ -40,6 +40,8 @@
     font-size: 3rem;
     color:rgb(0, 195, 255);
     text-shadow: 1px 1px 2px black;
+    position: sticky;
+    top: 0;
 }
 
 img {
