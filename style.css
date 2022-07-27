@@ -131,5 +131,25 @@ a {
 }
 
 .narration:active {
-    color:rgb(255, 0, 212)
+    color:rgb(255, 0, 212);
+    background-color: blue;
+}
+
+.btn-end {
+    font-family: 'bangers';
+    font-size: 3rem;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    margin: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    transition: 0.1s ease;
+}
+
+.btn-end:hover {
+    cursor: pointer;
+    background-color: rgb(238, 255, 0);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }

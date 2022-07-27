@@ -5,7 +5,7 @@ btnPlay.addEventListener('click', function() {
     let audio = document.getElementById('narration1')
     audio.play()
 
-    btnPlay.style.color = 'chartreuse'
+    btnPlay.style.color = 'lime'
     btnPause.style.color = 'purple'
     btnRepeat.style.color = 'purple'
 })
@@ -17,7 +17,7 @@ btnPause.addEventListener('click', function() {
     audio.pause()
 
     btnPlay.style.color = 'purple'
-    btnPause.style.color = 'chartreuse'
+    btnPause.style.color = 'lime'
     btnRepeat.style.color = 'purple'
 })
 
@@ -29,7 +29,7 @@ btnRepeat.addEventListener('click', function() {
    }else {
     audio.currentTime = 0
    }
-    btnPlay.style.color = 'chartreuse'
+    btnPlay.style.color = 'lime'
     btnPause.style.color = 'purple'
     btnRepeat.style.color = 'purple'
 })
