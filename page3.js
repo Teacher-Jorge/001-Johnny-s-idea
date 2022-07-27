@@ -74,13 +74,30 @@ btnBrought.addEventListener('click', function() {
     let audio = document.getElementById('clickSound')
     audio.play()
     
-        document.getElementById('btnBrought').innerHTML = 'trouxe um pouco de repolho e espinafre'
+        document.getElementById('btnBrought').innerHTML = 'trouxe'
         document.getElementById('btnBrought').setAttribute("style", "box-shadow: 0 0 0")
         btnBrought.style.backgroundColor = 'lime'
         setTimeout(function() {
-            document.getElementById('btnBrought').innerHTML = 'brought some cabbage and spinach'
+            document.getElementById('btnBrought').innerHTML = 'brought'
             document.getElementById('btnBrought').setAttribute("style", "box-shadow: 1px 1px 2px")
             btnBrought.style.backgroundColor = 'white'
+        }, 2000)
+    }
+)
+
+let btnCabbage = document.getElementById('btnCabbage')
+
+btnCabbage.addEventListener('click', function() {
+    let audio = document.getElementById('clickSound')
+    audio.play()
+    
+        document.getElementById('btnCabbage').innerHTML = 'repolho e espinafre'
+        document.getElementById('btnCabbage').setAttribute("style", "box-shadow: 0 0 0")
+        btnCabbage.style.backgroundColor = 'lime'
+        setTimeout(function() {
+            document.getElementById('btnCabbage').innerHTML = 'cabbage and spinach'
+            document.getElementById('btnCabbage').setAttribute("style", "box-shadow: 1px 1px 2px")
+            btnCabbage.style.backgroundColor = 'white'
         }, 2000)
     }
 )

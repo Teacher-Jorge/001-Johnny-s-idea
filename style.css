@@ -24,15 +24,15 @@
     font-size: 25px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     padding: 5px;
     max-width: 450px;
     height: 620px;
-    border: 2px solid steelblue;
+    border: 2px solid rgb(255, 72, 0);
     border-radius: 10px;
-    line-height: 40px;
+    line-height: 35px;
     overflow: hidden;
 }
 
@@ -55,7 +55,7 @@ img {
     border-radius: 10px;
     border-style: none;
     box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-    margin: 20px;
+    margin: 10px;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     transition: 0.1s ease;
 }
@@ -70,13 +70,8 @@ a {
     text-decoration: none;
 }
 
-.pages-buttons-container {
-    display: flex;
-    justify-content: center;
-}
-
 .chapter {
-    font-size: 1.5rem;
+    font-size: 3rem;
     width: 350px;
     height: 30px;
     display: flex;
@@ -144,11 +139,10 @@ a {
     font-size: 3rem;
     width: 160px;
     height: 50px;
-    align-items: center;
     border-radius: 10px;
     border-style: none;
     box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-    margin: 0px;
+    margin: 5px;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     transition: 0.1s ease;
 }
