@@ -38,7 +38,7 @@
 
 .title {
     font-family: 'Mouse Memoirs';
-    font-size: 3rem;
+    font-size: 4rem;
     color:rgb(255, 94, 0);
     text-shadow: 1px 1px 2px black;
 }
@@ -76,7 +76,7 @@ a {
 }
 
 .chapter {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 350px;
     height: 30px;
     display: flex;
@@ -84,7 +84,7 @@ a {
     font-family: 'Mouse Memoirs';
     color:rgb(255, 81, 0);
     text-shadow: 1px 1px 2px black;
-    margin: 10px 5px;
+    margin: 0px 0px;
 }
 
 .btn-words {
@@ -142,12 +142,13 @@ a {
 .btn-end {
     font-family: 'Mouse Memoirs';
     font-size: 3rem;
-    width: 200px;
+    width: 160px;
     height: 50px;
+    align-items: center;
     border-radius: 10px;
     border-style: none;
     box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-    margin: 20px;
+    margin: 0px;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     transition: 0.1s ease;
 }
