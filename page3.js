@@ -112,7 +112,7 @@ btnCollected.addEventListener('click', function() {
         document.getElementById('btnCollected').setAttribute("style", "box-shadow: 0 0 0")
         btnCollected.style.backgroundColor = 'lime'
         setTimeout(function() {
-            document.getElementById('btnCollected').innerHTML = "I've collected"
+            document.getElementById('btnCollected').innerHTML = "I've harvested"
             document.getElementById('btnCollected').setAttribute("style", "box-shadow: 1px 1px 2px")
             btnCollected.style.backgroundColor = 'white'
         }, 2000)
